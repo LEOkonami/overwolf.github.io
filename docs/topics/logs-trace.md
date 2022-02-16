@@ -25,7 +25,7 @@ In the first section of the Trace log you can check under which path Overwolf is
 2021-07-20 10:21:00,937 (INFO) [UI][12564] LoginSession - Initializing Login Session (Windows 10 64-bit, .NET 4.5, 10.0.19041.1023)
 2021-07-20 10:21:00,940 (INFO) [ 8][8868]  UserInformationLog - UID: OW_c58ed287-9974-4f2f-829f-6826d8bc6143
 2021-07-20 10:21:00,940 (INFO) [ 8][8868]  UserInformationLog - MUID: c17f3db1-9075-4045-9507-197c7eac9126
-2021-07-20 10:21:00,941 (INFO) [ 8][8868]  UserInformationLog - Username: shirel.garfinkle
+2021-07-20 10:21:00,941 (INFO) [ 8][8868]  UserInformationLog - Username: <username>
 2021-07-20 10:21:00,941 (INFO) [ 8][8868]  UserInformationLog - Channel:  website (ML:website) 
 2021-07-20 10:21:00,942 (INFO) [ 8][8868]  UserInformationLog - CurrentVersion: 0.174.87.15
 2021-07-20 10:21:00,942 (INFO) [ 8][8868]  UserInformationLog - LastVersion: 0.174.0.10

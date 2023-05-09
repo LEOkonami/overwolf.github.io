@@ -71,60 +71,59 @@ In this section you can view the input and output audio devices. These will be e
 
 In this section we will see the recording starting and the recording settings:
 
+AMD GPU
+
 ```js
-10:22:16.351(WARNING)[8c3c]: [game-capture: 'OW Game capture'] game capture pause state changed: 0 -> 1
-10:22:52.159(INFO)[8958]: Handle command 6 (0)
-10:22:52.159(INFO)[8958]: game focus changed: true
-10:22:52.159(INFO)[8958]: update sources visibility [1 (1)]
-10:22:52.159(INFO)[8958]: Game capture foreground changed: 0 -> 1 (exist: 1 visible:1)
-10:22:52.159(INFO)[8958]: Update source |brb| visibility: false
-10:22:52.167(WARNING)[8c3c]: [game-capture: 'OW Game capture'] game capture pause state changed: 1 -> 0
-10:22:53.886(INFO)[91e4]: [game-capture: 'OW Game capture'] [Game Log]: gl_free: GL error occurred on free: 1282
-10:22:53.886(INFO)[91e4]: [game-capture: 'OW Game capture'] [Game Log]: ------------------ gl capture freed ------------------
-10:22:54.190(INFO)[8958]: Handle command 6 (0)
-10:22:54.190(INFO)[8958]: game focus changed: false
-10:22:54.190(INFO)[8958]: update sources visibility [0 (0)]
-10:22:54.190(INFO)[8958]: Game capture foreground changed: 1 -> 0 (exist: 1 visible:1)
-10:22:54.190(INFO)[8958]: Update source |brb| visibility: true
-10:22:54.191(INFO)[8958]: Set BRB image color 0xcc0d0d0d
-10:22:54.191(INFO)[8958]: update BRB image position: [x:375 y:311]
-10:22:54.201(WARNING)[8c3c]: [game-capture: 'OW Game capture'] game capture pause state changed: 0 -> 1
-10:22:54.984(INFO)[8c3c]: [game-capture: 'OW Game capture'] capture window no longer exists, terminating capture
-10:22:54.984(INFO)[8c3c]: [game-capture: 'OW Game capture'] capture stopped
-10:22:54.984(INFO)[8c3c]: Game source capture state changed: 0 [process alive: true, sli: false]
-10:22:54.984(INFO)[8b38]: Game capture state changed [capture:0 process alive:0]
-10:22:54.984(INFO)[8b38]: game exit, stopping replay [force:1]
-10:22:54.984(INFO)[8b38]: Call stop replay stream
-10:22:54.984(INFO)[8b38]: Stop replay buffer [id:2 force: 1]
-10:22:54.985(INFO)[8b38]: Replay buffer stopping [id:2]
-10:22:54.985(INFO)[8b38]: Stop replay stream
-10:22:54.985(INFO)[8b38]: game exit, request to stop recording
-10:22:54.985(INFO)[8b38]: Update source |game| visibility: false
-10:22:54.985(INFO)[8b38]: stop recording: no game source
-10:22:54.985(INFO)[8b38]: Call stopping recoding stream
-10:22:54.985(INFO)[8b38]: record stopping [id:1]
-10:22:54.985(INFO)[8b38]: Stopping recoding stream
-10:22:54.985(INFO)[8b38]: remove game source
-10:22:54.986(INFO)[65c0]: Output 'ReplayBuffer': stopping
-10:22:54.986(INFO)[65c0]: Output 'ReplayBuffer': Total frames output: 2576
-10:22:54.986(INFO)[65c0]: Output 'ReplayBuffer': Total drawn frames: 2585
-10:22:54.986(INFO)[65c0]: Replay buffer stopped [id:2]. code:0
-10:22:55.160(INFO)[65c0]: On video split [id:1]. path: C:\Users\Shirel laptop\Videos\Overwolf\Outplayed\tmp\Minecraft 07-20-2021_10-22-07-714.mp4 duration: 43050
-10:22:55.160(INFO)[65c0]: new split video created: C:\Users\Shirel laptop\Videos\Overwolf\Outplayed\tmp\Minecraft 07-20-2021_10-22-07-714.mp4 duration: 43050
-10:22:55.160(INFO)[65c0]: [ffmpeg muxer: 'Overwolf Output'] Output of file 'C:\Users\Shirel laptop\Videos\Overwolf\Outplayed\tmp\Minecraft 07-20-2021_10-22-07-714.mp4' stopped
-10:22:55.160(INFO)[65c0]: Output 'Overwolf Output': stopping
-10:22:55.160(INFO)[65c0]: Output 'Overwolf Output': Total frames output: 2586
-10:22:55.160(INFO)[65c0]: Output 'Overwolf Output': Total drawn frames: 2595
-10:22:55.160(INFO)[65c0]: recording stopped [id:1]
-10:22:55.160(INFO)[65c0]: recording stopped [id:1 code:0 error:(null)]
-10:22:55.160(INFO)[4650]: Video stopped, number of skipped frames due to encoding lag: 8/2593 (0.3%)
-10:22:55.161(INFO)[8958]: shut down command
-10:22:55.162(INFO)[8cb4]: releasing obs
-10:22:55.162(INFO)[8cb4]: releasing scene
-10:22:55.229(INFO)[8cb4]: [game-capture: 'OW Game capture'] game_capture_destroy
-10:22:55.230(INFO)[8cb4]: Freeing OBS context data
-10:22:55.230(INFO)[8cb4]: 	1 encoder(s) were remaining
-10:22:55.256(INFO)[8cb4]: Number of memory leaks: 144
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3> Encoder Parameters:
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>   Backend:
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Video API: Direct3D 11
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Video Adapter: Radeon RX 570 Series (VEN_1002/DEV_67df/SUB_c5701682/REV_00ef)
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     OpenCL: Not Supported
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>       Transfer: Disabled
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>       Conversion: Disabled
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Multi-Threading: Disabled
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Queue Size: 8
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>   Frame:
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Format: NV12 709 Partial
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Resolution: 1920x1080
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Frame Rate: 90/1
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Aspect Ratio: 1:1
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>   Static:
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Usage: Transcoding
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Quality Preset: Balanced
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Profile: High 5.1
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Coding Type: Automatic
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Max. Reference Frames: 4
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Max. Long-Term Reference Frames: 0
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>   Rate Control:
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Method: Constant Bitrate
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     Pre-Pass Mode: Disabled
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>     QP:
+21:55:24.488(INFO)[91b8]: [AMF] [H264]<Id: 3>       Range: 18 - 51
+21:55:24.489(INFO)[91b8]: [AMF] [H264]<Id: 3>       I-Frame: 22
+21:55:24.489(INFO)[91b8]: [AMF] [H264]<Id: 3>       P-Frame: 22
+21:55:24.489(INFO)[91b8]: [AMF] [H264]<Id: 3>       B-Frame: 22
+21:55:24.489(INFO)[91b8]: [AMF] [H264]<Id: 3>     Bitrate:
+21:55:24.489(INFO)[91b8]: [AMF] [H264]<Id: 3>       Target: 6000000 bit/s
+21:55:24.489(INFO)[91b8]: [AMF] [H264]<Id: 3>       Peak: 6000000 bit/s
+```
+
+Nvidia GPU
+
+```js
+23:07:03.838(INFO)[3918]: [jim-nvenc: 'recording_h264'] settings:
+23:07:03.838(INFO)[3918]: 	rate_control: CBR
+23:07:03.838(INFO)[3918]: 	bitrate:      16000
+23:07:03.838(INFO)[3918]: 	cqp:          20
+23:07:03.838(INFO)[3918]: 	keyint:       60
+23:07:03.838(INFO)[3918]: 	preset:       hq
+23:07:03.838(INFO)[3918]: 	profile:      high
+23:07:03.838(INFO)[3918]: 	width:        3440
+23:07:03.838(INFO)[3918]: 	height:       1440
+23:07:03.838(INFO)[3918]: 	2-pass:       false
+23:07:03.838(INFO)[3918]: 	b-frames:     2
+23:07:03.838(INFO)[3918]: 	lookahead:    false
+23:07:03.838(INFO)[3918]: 	psycho_aq:    true
 ```
 
 ## Recording issues checklist
